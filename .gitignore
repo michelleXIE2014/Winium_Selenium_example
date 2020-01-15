@@ -1,5 +1,5 @@
-\screenshot
-\UIAutomationTest\obj
-\UIAutomationTest\artifacts
-\UIAutomationTest\bin
+UIAutomationTest\screenshot
+UIAutomationTest\obj
+UIAutomationTest\artifacts
+UIAutomationTest\bin
 .vs/
