@@ -54,7 +54,7 @@ namespace Tests
             installername = "notepad.exe";
         }
 
-        [Test]
+        [Test, Ignore("Not for conference 2023")]
         public void WiniumOpenNotepadTest()
         {
            
@@ -138,7 +138,6 @@ namespace Tests
         {
             var dc = new DesiredCapabilities();
             dc.SetCapability("app", @"C:\Windows\system32\" + filename);
-            //var driver = new RemoteWebDriver(new Uri("http://localhost:9999"), dc);
             var driver = new RemoteWebDriver(new Uri("http://" + publicIp + ":9999"), dc);
 
             var windowSetup = driver.FindElementByClassName("Edit");
@@ -146,6 +145,8 @@ namespace Tests
             Actions action = new Actions(driver);
             ScreenShot(driver);
             action.SendKeys("Hi, I am Michelle.").Build().Perform();
+
+
             ScreenShot(driver);
             action.SendKeys(OpenQA.Selenium.Keys.Control + "S").Build().Perform();
             

@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mxie\\source\\repos\\Winium_Selenium_example\\UIAutomationTest\\UIAutomationTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mxie\\source\\repos\\Winium_Selenium_example\\UIAutomationTest\\UIAutomationTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mxie\\source\\repos\\Winium_Selenium_example\\UIAutomationTest\\UIAutomationTest.csproj",
+        "projectName": "UIAutomationTest",
+        "projectPath": "C:\\Users\\mxie\\source\\repos\\Winium_Selenium_example\\UIAutomationTest\\UIAutomationTest.csproj",
+        "packagesPath": "C:\\Users\\mxie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mxie\\source\\repos\\Winium_Selenium_example\\UIAutomationTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mxie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.3.100.1, )"
+            },
+            "AWSSDK.EC2": {
+              "target": "Package",
+              "version": "[3.3.100.1, )"
+            },
+            "Amazon.CDK.AWS.EC2": {
+              "target": "Package",
+              "version": "[0.26.0, )"
+            },
+            "Amazon.Ec2": {
+              "target": "Package",
+              "version": "[0.12.2, )"
+            },
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "MSBuild.NUnit": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.16.0, )"
+            },
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2016.1.0, )"
+            },
+            "Selenium.Chrome.WebDriver": {
+              "target": "Package",
+              "version": "[79.0.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "System.Management.Automation_PowerShell_3.0": {
+              "target": "Package",
+              "version": "[6.3.9600.17400, )"
+            },
+            "Winium.Elements.Desktop": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            },
+            "Winium.WebDriver": {
+              "target": "Package",
+              "version": "[0.1.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

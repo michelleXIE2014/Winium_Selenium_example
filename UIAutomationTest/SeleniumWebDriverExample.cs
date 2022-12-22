@@ -34,7 +34,7 @@ namespace Tests
           
         }
 
-        [Test]
+        [Test, Ignore("Not for Automation Guild 2023")]
         public void LocalDriver()
         {
             wdriver = SeleniumDriver("local");
@@ -51,7 +51,7 @@ namespace Tests
             
         }
 
-        [Test]
+        [Test, Ignore("Not for Automation Guild 2023")]
         public void RemoteDriver()
         {
             wdriver = SeleniumDriver("remote");

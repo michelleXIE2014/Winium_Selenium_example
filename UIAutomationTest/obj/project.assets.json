@@ -1,0 +1,1295 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Amazon.CDK/0.26.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.CDK.CXAPI": "0.26.0",
+          "Amazon.JSII.Runtime": "0.7.15"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.CDK.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.CDK.dll": {}
+        }
+      },
+      "Amazon.CDK.AWS.CloudWatch/0.26.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.CDK": "0.26.0",
+          "Amazon.CDK.AWS.IAM": "0.26.0",
+          "Amazon.CDK.CXAPI": "0.26.0",
+          "Amazon.CDK.RegionInfo": "0.26.0",
+          "Amazon.JSII.Runtime": "0.7.15"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.CDK.AWS.CloudWatch.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.CDK.AWS.CloudWatch.dll": {}
+        }
+      },
+      "Amazon.CDK.AWS.EC2/0.26.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.CDK": "0.26.0",
+          "Amazon.CDK.AWS.CloudWatch": "0.26.0",
+          "Amazon.CDK.AWS.IAM": "0.26.0",
+          "Amazon.CDK.CXAPI": "0.26.0",
+          "Amazon.CDK.RegionInfo": "0.26.0",
+          "Amazon.JSII.Runtime": "0.7.15"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.CDK.AWS.EC2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.CDK.AWS.EC2.dll": {}
+        }
+      },
+      "Amazon.CDK.AWS.IAM/0.26.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.CDK": "0.26.0",
+          "Amazon.CDK.CXAPI": "0.26.0",
+          "Amazon.CDK.RegionInfo": "0.26.0",
+          "Amazon.JSII.Runtime": "0.7.15"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.CDK.AWS.IAM.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.CDK.AWS.IAM.dll": {}
+        }
+      },
+      "Amazon.CDK.CXAPI/0.26.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.JSII.Runtime": "0.7.15"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.CDK.CXAPI.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.CDK.CXAPI.dll": {}
+        }
+      },
+      "Amazon.CDK.RegionInfo/0.26.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.JSII.Runtime": "0.7.15"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.CDK.RegionInfo.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.CDK.RegionInfo.dll": {}
+        }
+      },
+      "Amazon.Core/0.12.2": {
+        "type": "package",
+        "dependencies": {
+          "Carbon.Json": "1.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Core.dll": {}
+        }
+      },
+      "Amazon.Ec2/0.12.2": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Core": "0.12.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.Ec2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Ec2.dll": {}
+        }
+      },
+      "Amazon.JSII.JsonModel/0.7.15": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.JSII.JsonModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.JSII.JsonModel.dll": {}
+        }
+      },
+      "Amazon.JSII.Runtime/0.7.15": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.JSII.JsonModel": "0.7.15",
+          "Microsoft.Extensions.DependencyInjection": "2.0.0",
+          "Microsoft.Extensions.Logging": "2.0.2",
+          "Microsoft.Extensions.Logging.Console": "2.0.2",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.JSII.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.JSII.Runtime.dll": {}
+        }
+      },
+      "Appium.WebDriver/4.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "4.3.1",
+          "DotNetSeleniumExtras.PageObjects": "3.11.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Selenium.Support": "3.141.0",
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "compile": {
+          "lib/net45/Appium.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Appium.Net.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.100.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.EC2/3.3.100.1": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.100.1, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.EC2.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.EC2.dll": {}
+        }
+      },
+      "Carbon.Json/1.9.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Carbon.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Json.dll": {}
+        }
+      },
+      "Castle.Core/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net45/Castle.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Castle.Core.dll": {}
+        }
+      },
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/net45/SeleniumExtras.PageObjects.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "Microsoft.CodeCoverage/16.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "build": {
+          "build/netstandard1.0/Microsoft.CodeCoverage.props": {},
+          "build/netstandard1.0/Microsoft.CodeCoverage.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.2",
+          "Microsoft.Extensions.Options": "2.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Console/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.2",
+          "Microsoft.Extensions.Logging": "2.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.NET.Test.Sdk/16.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeCoverage": "16.4.0"
+        },
+        "build": {
+          "build/net40/Microsoft.NET.Test.Sdk.props": {},
+          "build/net40/Microsoft.NET.Test.Sdk.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.NET.Test.Sdk.props": {}
+        }
+      },
+      "MSBuild.NUnit/1.0.2": {
+        "type": "package"
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NUnit/3.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "Selenium.Chrome.WebDriver/79.0.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Chrome.WebDriver.targets": {}
+        }
+      },
+      "Selenium.Support/3.141.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        }
+      },
+      "SSH.NET/2016.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Renci.SshNet.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Renci.SshNet.dll": {}
+        }
+      },
+      "System.Management.Automation_PowerShell_3.0/6.3.9600.17400": {
+        "type": "package",
+        "compile": {
+          "lib/net40/System.Management.Automation.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Management.Automation.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Text.Encodings.Web/4.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "Winium.Elements.Desktop/0.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Winium.WebDriver": "0.1.0"
+        },
+        "compile": {
+          "lib/net45/Winium.Elements.Desktop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Winium.Elements.Desktop.dll": {}
+        }
+      },
+      "Winium.WebDriver/0.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "[2.48.0]"
+        },
+        "compile": {
+          "lib/net45/Winium.WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Winium.WebDriver.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amazon.CDK/0.26.0": {
+      "sha512": "U+J3b3XAZ3BN14cnfq3C92HUMQJY0Fg/dYUGU558HIj+tR0TaXnJ56tQhZHHftJilt74Am0emFu7S1htb3IS3Q==",
+      "type": "package",
+      "path": "amazon.cdk/0.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.cdk.0.26.0.nupkg.sha512",
+        "amazon.cdk.nuspec",
+        "lib/netstandard2.0/Amazon.CDK.dll"
+      ]
+    },
+    "Amazon.CDK.AWS.CloudWatch/0.26.0": {
+      "sha512": "R3Q0V116zO/F8uo1n0mkAf36pgINTxM7bQewSG44MEmPtN/Upx7+NKX4fyL0PwjguBRTg7vX1kW031D4UseOSQ==",
+      "type": "package",
+      "path": "amazon.cdk.aws.cloudwatch/0.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.cdk.aws.cloudwatch.0.26.0.nupkg.sha512",
+        "amazon.cdk.aws.cloudwatch.nuspec",
+        "lib/netstandard2.0/Amazon.CDK.AWS.CloudWatch.dll"
+      ]
+    },
+    "Amazon.CDK.AWS.EC2/0.26.0": {
+      "sha512": "LP+Oe4hzESQkgnQ/MVWmqUMtM8pLgvzZGVt83e9LHG8pwhzJEfCwzepz2zISQdj/L/gta22XbbsxPR9NCmaH+Q==",
+      "type": "package",
+      "path": "amazon.cdk.aws.ec2/0.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.cdk.aws.ec2.0.26.0.nupkg.sha512",
+        "amazon.cdk.aws.ec2.nuspec",
+        "lib/netstandard2.0/Amazon.CDK.AWS.EC2.dll"
+      ]
+    },
+    "Amazon.CDK.AWS.IAM/0.26.0": {
+      "sha512": "YuZwdinQPK3MBjzebvuPCoVaqX6yfj3VbnwGcDy5PBu7VbO11s8xmPLRgnknkMMeVHJc4XhV3MalD9Q29xB5qA==",
+      "type": "package",
+      "path": "amazon.cdk.aws.iam/0.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.cdk.aws.iam.0.26.0.nupkg.sha512",
+        "amazon.cdk.aws.iam.nuspec",
+        "lib/netstandard2.0/Amazon.CDK.AWS.IAM.dll"
+      ]
+    },
+    "Amazon.CDK.CXAPI/0.26.0": {
+      "sha512": "dOcUywXTEgGyyyCmmL61tFVYXrXKFq1wudhBz+YdeEM7mdSMGOBuIegsDSmuQEv0cGU/gx40MDhG/jfLl8gh1A==",
+      "type": "package",
+      "path": "amazon.cdk.cxapi/0.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.cdk.cxapi.0.26.0.nupkg.sha512",
+        "amazon.cdk.cxapi.nuspec",
+        "lib/netstandard2.0/Amazon.CDK.CXAPI.dll"
+      ]
+    },
+    "Amazon.CDK.RegionInfo/0.26.0": {
+      "sha512": "Sp3WY2Q/Q6pusvy+Jwx3aZ2hUb9R88Si4dwAOzB0/7LjL4CQJyuANSPNY45LrbD/J2QDc4aAorkrGuxwrzDxtQ==",
+      "type": "package",
+      "path": "amazon.cdk.regioninfo/0.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.cdk.regioninfo.0.26.0.nupkg.sha512",
+        "amazon.cdk.regioninfo.nuspec",
+        "lib/netstandard2.0/Amazon.CDK.RegionInfo.dll"
+      ]
+    },
+    "Amazon.Core/0.12.2": {
+      "sha512": "w78hy0fYci1niK/SKWh3NV5vfnxDQjr6vCdFVRALYwSznLZDAmjxvRuPjI2uL3sry7K0Ucd4NM4LEin6urAZJA==",
+      "type": "package",
+      "path": "amazon.core/0.12.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.core.0.12.2.nupkg.sha512",
+        "amazon.core.nuspec",
+        "lib/netstandard2.0/Amazon.Core.dll"
+      ]
+    },
+    "Amazon.Ec2/0.12.2": {
+      "sha512": "bHgs4Fkn2r138c7c4jtvaUeGL5zo19TpbDv+oqm4TqW7w6zGE1Ypz78yV6aj4f0YHAcZwn00HtsXScCtFXKO4g==",
+      "type": "package",
+      "path": "amazon.ec2/0.12.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.ec2.0.12.2.nupkg.sha512",
+        "amazon.ec2.nuspec",
+        "lib/netstandard2.0/Amazon.Ec2.dll"
+      ]
+    },
+    "Amazon.JSII.JsonModel/0.7.15": {
+      "sha512": "SsWhH9S3zxrXE/cNsqMJLZVygfjTYnjK+2zqqrx0T6GO7ICLtPtKXnXukmc4A6G3UC8OyNgMn7W0HrR4J+/qYg==",
+      "type": "package",
+      "path": "amazon.jsii.jsonmodel/0.7.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.jsii.jsonmodel.0.7.15.nupkg.sha512",
+        "amazon.jsii.jsonmodel.nuspec",
+        "lib/netstandard2.0/Amazon.JSII.JsonModel.dll"
+      ]
+    },
+    "Amazon.JSII.Runtime/0.7.15": {
+      "sha512": "nXU5hdtooac46Xodrbv/w0hVjlfoeFRKJzGvGS2UKhYUZOMgF2CVNQCV/5X8lihqHJV0Kx6FcUk4CYIWccM+rQ==",
+      "type": "package",
+      "path": "amazon.jsii.runtime/0.7.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.jsii.runtime.0.7.15.nupkg.sha512",
+        "amazon.jsii.runtime.nuspec",
+        "lib/netstandard2.0/Amazon.JSII.Runtime.dll"
+      ]
+    },
+    "Appium.WebDriver/4.4.0": {
+      "sha512": "eMkNgokVlLk7tyZxPp6JoaiwAygG0PBa2WtGdLTZTyRgW8ytfBv7ScLdmlEQkTgVZytedNa+xUVe4XvLfqqHPQ==",
+      "type": "package",
+      "path": "appium.webdriver/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "appium-icon.png",
+        "appium.webdriver.4.4.0.nupkg.sha512",
+        "appium.webdriver.nuspec",
+        "lib/net45/Appium.Net.dll",
+        "lib/net45/Appium.Net.xml",
+        "lib/netstandard2.0/Appium.Net.dll",
+        "lib/netstandard2.0/Appium.Net.xml"
+      ]
+    },
+    "AWSSDK.Core/3.3.100.1": {
+      "sha512": "U/QQgjh19D/AeD4Y6FW1zgmD2KTb3Q7vYZ2jWqIBt/5GHiOe+3ryDfr8SbOw6YiQFwFMY0n1pwMWSEU4+J2njw==",
+      "type": "package",
+      "path": "awssdk.core/3.3.100.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.3.100.1.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/MonoAndroid10/AWSSDK.Core.XML",
+        "lib/MonoAndroid10/AWSSDK.Core.dll",
+        "lib/MonoAndroid10/AWSSDK.Core.pdb",
+        "lib/MonoTouch10/AWSSDK.Core.XML",
+        "lib/MonoTouch10/AWSSDK.Core.dll",
+        "lib/Xamarin.Mac20/AWSSDK.Core.XML",
+        "lib/Xamarin.Mac20/AWSSDK.Core.dll",
+        "lib/Xamarin.iOS10/AWSSDK.Core.XML",
+        "lib/Xamarin.iOS10/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netstandard1.3/AWSSDK.Core.dll",
+        "lib/netstandard1.3/AWSSDK.Core.pdb",
+        "lib/netstandard1.3/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.pdb",
+        "lib/uap/AWSSDK.Core.XML",
+        "lib/uap/AWSSDK.Core.dll",
+        "lib/uap/AWSSDK.Core.pdb",
+        "lib/win8/AWSSDK.Core.XML",
+        "lib/win8/AWSSDK.Core.dll",
+        "lib/win8/AWSSDK.Core.pdb",
+        "lib/wp8/AWSSDK.Core.XML",
+        "lib/wp8/AWSSDK.Core.dll",
+        "lib/wp8/AWSSDK.Core.pdb",
+        "lib/wpa81/AWSSDK.Core.XML",
+        "lib/wpa81/AWSSDK.Core.dll",
+        "lib/wpa81/AWSSDK.Core.pdb",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.EC2/3.3.100.1": {
+      "sha512": "EhoOMkFlCjM7xyMPkWp2P4bbL1eb6T8Zk6+pZIcUN0YSoPQeK7ArVeY9p1GprLWVmKkCiIh0YDCrMDHj10e9bQ==",
+      "type": "package",
+      "path": "awssdk.ec2/3.3.100.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.EC2.CodeAnalysis.dll",
+        "awssdk.ec2.3.3.100.1.nupkg.sha512",
+        "awssdk.ec2.nuspec",
+        "lib/MonoAndroid10/AWSSDK.EC2.XML",
+        "lib/MonoAndroid10/AWSSDK.EC2.dll",
+        "lib/MonoTouch10/AWSSDK.EC2.XML",
+        "lib/MonoTouch10/AWSSDK.EC2.dll",
+        "lib/MonoTouch10/AWSSDK.EC2.pdb",
+        "lib/Xamarin.iOS10/AWSSDK.EC2.XML",
+        "lib/Xamarin.iOS10/AWSSDK.EC2.dll",
+        "lib/net35/AWSSDK.EC2.dll",
+        "lib/net35/AWSSDK.EC2.pdb",
+        "lib/net35/AWSSDK.EC2.xml",
+        "lib/net45/AWSSDK.EC2.dll",
+        "lib/net45/AWSSDK.EC2.pdb",
+        "lib/net45/AWSSDK.EC2.xml",
+        "lib/netstandard1.3/AWSSDK.EC2.dll",
+        "lib/netstandard1.3/AWSSDK.EC2.pdb",
+        "lib/netstandard1.3/AWSSDK.EC2.xml",
+        "lib/netstandard2.0/AWSSDK.EC2.dll",
+        "lib/netstandard2.0/AWSSDK.EC2.pdb",
+        "lib/netstandard2.0/AWSSDK.EC2.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.EC2.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.EC2.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.EC2.pdb",
+        "lib/uap/AWSSDK.EC2.XML",
+        "lib/uap/AWSSDK.EC2.dll",
+        "lib/uap/AWSSDK.EC2.pdb",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Carbon.Json/1.9.0": {
+      "sha512": "DUkE1HfPwDpXI+7KsemHHK+EhtS08llue3SQDkVZkzCmX8SJiMv1vpHi5p7HbjkDZfb28J+aPsNOlBRE016RYA==",
+      "type": "package",
+      "path": "carbon.json/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.json.1.9.0.nupkg.sha512",
+        "carbon.json.nuspec",
+        "lib/netstandard2.0/Carbon.Json.dll"
+      ]
+    },
+    "Castle.Core/4.3.1": {
+      "sha512": "8Y/eTr6GTElAGV7eAmJuhfLhGdFpNvaNrQ9UQYDScziLmX+/BLGM+9eQr0IcdNDcPN0ADmbtwT6MgecGKy4obw==",
+      "type": "package",
+      "path": "castle.core/4.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "CHANGELOG.md",
+        "LICENSE",
+        "castle.core.4.3.1.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net35/Castle.Core.dll",
+        "lib/net35/Castle.Core.xml",
+        "lib/net40/Castle.Core.dll",
+        "lib/net40/Castle.Core.xml",
+        "lib/net45/Castle.Core.dll",
+        "lib/net45/Castle.Core.xml",
+        "lib/netstandard1.3/Castle.Core.dll",
+        "lib/netstandard1.3/Castle.Core.xml",
+        "lib/netstandard1.5/Castle.Core.dll",
+        "lib/netstandard1.5/Castle.Core.xml",
+        "readme.txt"
+      ]
+    },
+    "DotNetSeleniumExtras.PageObjects/3.11.0": {
+      "sha512": "DJCLQ3beq1fzqpeQ5jTZwDqmzbOD2Xxsb/jCyShYam88CNwGGn5aBBqu4LVSj0sy0Ai76OauQQncYlC48VvQUQ==",
+      "type": "package",
+      "path": "dotnetseleniumextras.pageobjects/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+        "dotnetseleniumextras.pageobjects.nuspec",
+        "lib/net35/SeleniumExtras.PageObjects.dll",
+        "lib/net40/SeleniumExtras.PageObjects.dll",
+        "lib/net45/SeleniumExtras.PageObjects.dll",
+        "lib/netstandard2.0/SeleniumExtras.PageObjects.dll"
+      ]
+    },
+    "Microsoft.CodeCoverage/16.4.0": {
+      "sha512": "qb7PMVZMAY5iUCvB/kDUEt9xqazWKZoKY/sGpAJO4VtwgN5IcEgipCu3n0i1GPCwGbWVL6k4a8a9F+FqmADJng==",
+      "type": "package",
+      "path": "microsoft.codecoverage/16.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.config",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.exe",
+        "build/netstandard1.0/CodeCoverage/amd64/covrun64.dll",
+        "build/netstandard1.0/CodeCoverage/amd64/msdia140.dll",
+        "build/netstandard1.0/CodeCoverage/codecoveragemessages.dll",
+        "build/netstandard1.0/CodeCoverage/covrun32.dll",
+        "build/netstandard1.0/CodeCoverage/msdia140.dll",
+        "build/netstandard1.0/Microsoft.CodeCoverage.props",
+        "build/netstandard1.0/Microsoft.CodeCoverage.targets",
+        "build/netstandard1.0/Microsoft.VisualStudio.TraceDataCollector.dll",
+        "build/netstandard1.0/cs/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/de/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/es/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/fr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/it/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ja/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ko/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pl/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pt-BR/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ru/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/tr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "microsoft.codecoverage.16.4.0.nupkg.sha512",
+        "microsoft.codecoverage.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.0.2": {
+      "sha512": "ZIuzorFmrbHqS8xucmLDFl4JtdaexHTpyS0+tdm6pRAB7dLp6ERQloGeUwuREBoz/ciW/Su21mgISCtXH+j1Eg==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.2.0.2.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/2.0.0": {
+      "sha512": "wakg18gHYiUL1pcjjyZuYk6OvDpbSw1E7IWxm78TMepsr+gQ8W0tWzuRm0q/9RFblngwPwo15rrgZSUV51W5Iw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "sha512": "eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging/2.0.2": {
+      "sha512": "yWnhg6DXApp14wxbODmSfCKv2fEZmxdEPYINXv73jtdIxw3wORIdLG2LniCNIcGMn4V/6CwZcTlq82wHhnZYOA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
+        "microsoft.extensions.logging.2.0.2.nupkg.sha512",
+        "microsoft.extensions.logging.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.0.2": {
+      "sha512": "xH49DgYQWwxB4r18Yc3SyYCXXrFpcLnVfxJlp4WktMfYHtNRbqd2Phdf6XQ0G91whVlKb2XZsOAY6be2AMWE+g==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.2.0.2.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Console/2.0.2": {
+      "sha512": "hGc52bGbpZTa+QjGIzze2Z0TOu1DuvQbhG7u3XZ44kVcYyKNavlWtRDARQMGMrRfydsBHOHFCrbknFIedo1akw==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.console/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.xml",
+        "microsoft.extensions.logging.console.2.0.2.nupkg.sha512",
+        "microsoft.extensions.logging.console.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options/2.0.2": {
+      "sha512": "LnDPWzNWaMG3LusEXVCfODBcsCb2LpZ1xaUSojMXj4jhQkTJ7uDQH9dhkN4isJZSKeT5lXtW9s2hUY2S9F5E9Q==",
+      "type": "package",
+      "path": "microsoft.extensions.options/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.2.0.2.nupkg.sha512",
+        "microsoft.extensions.options.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "sha512": "ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "Microsoft.NET.Test.Sdk/16.4.0": {
+      "sha512": "gjjqS3rCzg4DrSQq4YwJwUUvc49HtXpXrZkW9fu5VG+K4X+Ztn4+UzolyML7wPnl/EAIufk4hu628bJB4WtpFg==",
+      "type": "package",
+      "path": "microsoft.net.test.sdk/16.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net40/Microsoft.NET.Test.Sdk.props",
+        "build/net40/Microsoft.NET.Test.Sdk.targets",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.cs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.fs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.vb",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.props",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.targets",
+        "build/uap10.0/Microsoft.NET.Test.Sdk.props",
+        "buildMultiTargeting/Microsoft.NET.Test.Sdk.props",
+        "microsoft.net.test.sdk.16.4.0.nupkg.sha512",
+        "microsoft.net.test.sdk.nuspec"
+      ]
+    },
+    "MSBuild.NUnit/1.0.2": {
+      "sha512": "0aputens9rzoIfnRYd9jjaFRJVMKxuOPraVGoNnmdAsT0pHIdPurvZiQ9kqXXoydDxx3lcbpDLyCPl88/hJhYg==",
+      "type": "package",
+      "path": "msbuild.nunit/1.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "README.monoman.md",
+        "msbuild.nunit.1.0.2.nupkg.sha512",
+        "msbuild.nunit.nuspec",
+        "tools/MSBuild.NUnit.dll"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "NUnit/3.12.0": {
+      "sha512": "3oJTrcUcT9wmweBUwgUf0f1XIYy6RZq2ziV+RM95HMKAJGsHPN2i3MKK1dAPvDPMRLz799Llj4eyu/STB9Q7OA==",
+      "type": "package",
+      "path": "nunit/3.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.pdb",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.pdb",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.pdb",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard1.4/nunit.framework.dll",
+        "lib/netstandard1.4/nunit.framework.pdb",
+        "lib/netstandard1.4/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.pdb",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.12.0.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "NUnit3TestAdapter/3.16.0": {
+      "sha512": "yK8Y7DYboIz1pSVvjPN4SGGzso8OW5ZZ06kqqkeF4AXKvAeNo2n1bm41mArKk94+lKrD5m6RaWKnvoFk/U+z5w==",
+      "type": "package",
+      "path": "nunit3testadapter/3.16.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp2.1/NUnit3TestAdapter.props",
+        "build/netcoreapp2.1/nunit.engine.api.dll",
+        "build/netcoreapp2.1/nunit.engine.dll",
+        "nunit3testadapter.3.16.0.nupkg.sha512",
+        "nunit3testadapter.nuspec"
+      ]
+    },
+    "Selenium.Chrome.WebDriver/79.0.0": {
+      "sha512": "BKamee/fxFy7+hvQD7rXMWaYxdrSQDZHevT5NeMeDCqD2c1jsFh0zAbGR56usfWOpuIJT8RC6TWDkcSQjeWS6A==",
+      "type": "package",
+      "path": "selenium.chrome.webdriver/79.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.Chrome.WebDriver.targets",
+        "driver/chromedriver.exe",
+        "selenium.chrome.webdriver.79.0.0.nupkg.sha512",
+        "selenium.chrome.webdriver.nuspec"
+      ]
+    },
+    "Selenium.Support/3.141.0": {
+      "sha512": "F4sxMCXGyqWtbw5qsniJRgza2UsBnslHwFgNA2p7hPxvJhqg73lyXu/ZscJ7FSfRvq3eJrosysv92+4sZ3vWsg==",
+      "type": "package",
+      "path": "selenium.support/3.141.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.Support.dll",
+        "lib/net35/WebDriver.Support.xml",
+        "lib/net40/WebDriver.Support.dll",
+        "lib/net40/WebDriver.Support.xml",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net45/WebDriver.Support.xml",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.xml",
+        "selenium.support.3.141.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/3.141.0": {
+      "sha512": "wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
+      "type": "package",
+      "path": "selenium.webdriver/3.141.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.dll",
+        "lib/net35/WebDriver.xml",
+        "lib/net40/WebDriver.dll",
+        "lib/net40/WebDriver.xml",
+        "lib/net45/WebDriver.dll",
+        "lib/net45/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "selenium.webdriver.3.141.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "SSH.NET/2016.1.0": {
+      "sha512": "b0fcFFOE044KNRhq1uGujmK04ab+OzA9xARdeVCoZrY6I4D1IIaR6dn6qBIa+er4bJapGBhznDitwcRQpSRC0w==",
+      "type": "package",
+      "path": "ssh.net/2016.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Renci.SshNet.dll",
+        "lib/net35/Renci.SshNet.xml",
+        "lib/net40/Renci.SshNet.dll",
+        "lib/net40/Renci.SshNet.xml",
+        "lib/netstandard1.3/Renci.SshNet.dll",
+        "lib/netstandard1.3/Renci.SshNet.xml",
+        "lib/sl4/Renci.SshNet.dll",
+        "lib/sl4/Renci.SshNet.xml",
+        "lib/sl5/Renci.SshNet.dll",
+        "lib/sl5/Renci.SshNet.xml",
+        "lib/uap10/Renci.SshNet.dll",
+        "lib/uap10/Renci.SshNet.xml",
+        "lib/wp71/Renci.SshNet.dll",
+        "lib/wp71/Renci.SshNet.xml",
+        "lib/wp8/Renci.SshNet.dll",
+        "lib/wp8/Renci.SshNet.xml",
+        "ssh.net.2016.1.0.nupkg.sha512",
+        "ssh.net.nuspec"
+      ]
+    },
+    "System.Management.Automation_PowerShell_3.0/6.3.9600.17400": {
+      "sha512": "u+lG9fj/fis56ip8wA3fluZ2GYaLr8bttxaS6ffDK5OGbwMzB7WzZr2E6TaRwgei57xxnXmCbvzXYzE3iap5kA==",
+      "type": "package",
+      "path": "system.management.automation_powershell_3.0/6.3.9600.17400",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Management.Automation.dll",
+        "system.management.automation_powershell_3.0.6.3.9600.17400.nupkg.sha512",
+        "system.management.automation_powershell_3.0.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "sha512": "9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encodings.Web/4.5.0": {
+      "sha512": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.5.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Winium.Elements.Desktop/0.2.0": {
+      "sha512": "fcLNmhKAWUECUX6upKXKbxv9ZrHz+FZ+xMjYQvteKroHVxroJg6tdJpyZOsVD9PL80rlQDmv7r95/U+E/jS73w==",
+      "type": "package",
+      "path": "winium.elements.desktop/0.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Winium.Elements.Desktop.dll",
+        "winium.elements.desktop.0.2.0.nupkg.sha512",
+        "winium.elements.desktop.nuspec"
+      ]
+    },
+    "Winium.WebDriver/0.1.1": {
+      "sha512": "iPWDtLYiowFLu0aTD0gbPFfRV5vgQDhNWrgooKxLyVQX/YNiH7h2PuBXR1FPAqcCqdlKZ6qjPNXGuYBLeUhDFw==",
+      "type": "package",
+      "path": "winium.webdriver/0.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Winium.WebDriver.dll",
+        "winium.webdriver.0.1.1.nupkg.sha512",
+        "winium.webdriver.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "AWSSDK.Core >= 3.3.100.1",
+      "AWSSDK.EC2 >= 3.3.100.1",
+      "Amazon.CDK.AWS.EC2 >= 0.26.0",
+      "Amazon.Ec2 >= 0.12.2",
+      "Appium.WebDriver >= 4.4.0",
+      "MSBuild.NUnit >= 1.0.2",
+      "Microsoft.NET.Test.Sdk >= 16.4.0",
+      "NUnit3TestAdapter >= 3.16.0",
+      "SSH.NET >= 2016.1.0",
+      "Selenium.Chrome.WebDriver >= 79.0.0",
+      "Selenium.WebDriver >= 3.141.0",
+      "System.Management.Automation_PowerShell_3.0 >= 6.3.9600.17400",
+      "Winium.Elements.Desktop >= 0.2.0",
+      "Winium.WebDriver >= 0.1.1",
+      "nunit >= 3.12.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mxie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mxie\\source\\repos\\Winium_Selenium_example\\UIAutomationTest\\UIAutomationTest.csproj",
+      "projectName": "UIAutomationTest",
+      "projectPath": "C:\\Users\\mxie\\source\\repos\\Winium_Selenium_example\\UIAutomationTest\\UIAutomationTest.csproj",
+      "packagesPath": "C:\\Users\\mxie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mxie\\source\\repos\\Winium_Selenium_example\\UIAutomationTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mxie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "AWSSDK.Core": {
+            "target": "Package",
+            "version": "[3.3.100.1, )"
+          },
+          "AWSSDK.EC2": {
+            "target": "Package",
+            "version": "[3.3.100.1, )"
+          },
+          "Amazon.CDK.AWS.EC2": {
+            "target": "Package",
+            "version": "[0.26.0, )"
+          },
+          "Amazon.Ec2": {
+            "target": "Package",
+            "version": "[0.12.2, )"
+          },
+          "Appium.WebDriver": {
+            "target": "Package",
+            "version": "[4.4.0, )"
+          },
+          "MSBuild.NUnit": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[16.4.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.16.0, )"
+          },
+          "SSH.NET": {
+            "target": "Package",
+            "version": "[2016.1.0, )"
+          },
+          "Selenium.Chrome.WebDriver": {
+            "target": "Package",
+            "version": "[79.0.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[3.141.0, )"
+          },
+          "System.Management.Automation_PowerShell_3.0": {
+            "target": "Package",
+            "version": "[6.3.9600.17400, )"
+          },
+          "Winium.Elements.Desktop": {
+            "target": "Package",
+            "version": "[0.2.0, )"
+          },
+          "Winium.WebDriver": {
+            "target": "Package",
+            "version": "[0.1.1, )"
+          },
+          "nunit": {
+            "target": "Package",
+            "version": "[3.12.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Winium.WebDriver 0.1.1 requires Selenium.WebDriver (= 2.48.0) but version Selenium.WebDriver 3.141.0 was resolved.",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    }
+  ]
+}

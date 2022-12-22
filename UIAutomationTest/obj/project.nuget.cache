@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "dgSpecHash": "p4tfFUCc+7GTPu8EvKDOx7SSIWiAEv8QBOfLmBD3/fgcqFyuiGlb8Sw6vrKC+SyiV+aMO9JvQOgrGBOSymV9qw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mxie\\source\\repos\\Winium_Selenium_example\\UIAutomationTest\\UIAutomationTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mxie\\.nuget\\packages\\amazon.cdk\\0.26.0\\amazon.cdk.0.26.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\amazon.cdk.aws.cloudwatch\\0.26.0\\amazon.cdk.aws.cloudwatch.0.26.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\amazon.cdk.aws.ec2\\0.26.0\\amazon.cdk.aws.ec2.0.26.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\amazon.cdk.aws.iam\\0.26.0\\amazon.cdk.aws.iam.0.26.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\amazon.cdk.cxapi\\0.26.0\\amazon.cdk.cxapi.0.26.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\amazon.cdk.regioninfo\\0.26.0\\amazon.cdk.regioninfo.0.26.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\amazon.core\\0.12.2\\amazon.core.0.12.2.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\amazon.ec2\\0.12.2\\amazon.ec2.0.12.2.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\amazon.jsii.jsonmodel\\0.7.15\\amazon.jsii.jsonmodel.0.7.15.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\amazon.jsii.runtime\\0.7.15\\amazon.jsii.runtime.0.7.15.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\appium.webdriver\\4.4.0\\appium.webdriver.4.4.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\awssdk.core\\3.3.100.1\\awssdk.core.3.3.100.1.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\awssdk.ec2\\3.3.100.1\\awssdk.ec2.3.3.100.1.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\carbon.json\\1.9.0\\carbon.json.1.9.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\dotnetseleniumextras.pageobjects\\3.11.0\\dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.0.2\\microsoft.extensions.configuration.abstractions.2.0.2.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.0.0\\microsoft.extensions.dependencyinjection.2.0.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\microsoft.extensions.logging\\2.0.2\\microsoft.extensions.logging.2.0.2.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.2\\microsoft.extensions.logging.abstractions.2.0.2.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\microsoft.extensions.logging.console\\2.0.2\\microsoft.extensions.logging.console.2.0.2.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\microsoft.extensions.options\\2.0.2\\microsoft.extensions.options.2.0.2.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\microsoft.net.test.sdk\\16.4.0\\microsoft.net.test.sdk.16.4.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\msbuild.nunit\\1.0.2\\msbuild.nunit.1.0.2.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\nunit3testadapter\\3.16.0\\nunit3testadapter.3.16.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\selenium.chrome.webdriver\\79.0.0\\selenium.chrome.webdriver.79.0.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\ssh.net\\2016.1.0\\ssh.net.2016.1.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\system.management.automation_powershell_3.0\\6.3.9600.17400\\system.management.automation_powershell_3.0.6.3.9600.17400.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\winium.elements.desktop\\0.2.0\\winium.elements.desktop.0.2.0.nupkg.sha512",
+    "C:\\Users\\mxie\\.nuget\\packages\\winium.webdriver\\0.1.1\\winium.webdriver.0.1.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Winium.WebDriver 0.1.1 requires Selenium.WebDriver (= 2.48.0) but version Selenium.WebDriver 3.141.0 was resolved.",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    }
+  ]
+}
