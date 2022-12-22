@@ -32,7 +32,7 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
     <PackageReference Include="Selenium.Chrome.WebDriver" Version="79.0.0" />
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
-    <PackageReference Include="SSH.NET" Version="2016.1.0" />
+    <PackageReference Include="SSH.NET" Version="2020.0.2" />
     <PackageReference Include="System.Management.Automation_PowerShell_3.0" Version="6.3.9600.17400" />
     <PackageReference Include="Winium.Elements.Desktop" Version="0.2.0" />
     <PackageReference Include="Winium.WebDriver" Version="0.1.1" />
